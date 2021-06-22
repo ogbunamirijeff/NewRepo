@@ -1,0 +1,25 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+p {
+    font-family: Verdana;
+    text-align: left;
+}
+#form {
+    text-align: center;
+    
+}
+
+#what {
+    text-align: center;
+    margin-right: 330px;   
+}
+
+#likely {
+    text-align: center;
+}
+#foreign {
+text-align: center;
+margin-right: 650px;
+}
