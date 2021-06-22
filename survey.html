@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="css/survey.css">
+</head>
+<body style="background-color: rgb(26, 158, 158);">
+    <h1>Survey Form</h1>
+    <fieldset style="background-color: white;">
+        <p style="text-align: center;">Let us know how we can improve FreeCodeCamp</p>
+       <div id="form">
+        <form></form>
+        <label for="txtName">Name</label>
+        <input type="text" placeholder="Enter your Name" ><br>
+        <br>
+        <label for="txtName">Email</label>
+        <input type="text" placeholder="Enter your Email"><br>
+        <br>
+        <label for="txtName">Age</label>
+        <input type="number" placeholder="Age"><br>
+        <br>
+       </div>
+
+        <div id="what"> 
+            
+            <label for="roles">Which option best describes your current role</label>
+            <select name="roles" id="roles">
+                <option value="Employed">Employed</option>
+                <option value="Unemployed">Unemployed</option>
+                <option value="Student">Student</option>
+            </select> <br>
+        </div>
+        
+        
+            <p id="foreign">How likely is it that you would recommend FreeCodeCamp to a friend</p>
+            <div id="likely">
+            <input type="radio" name="radSize" value="small" id="bro">
+            <label for="bro">Definitely</label><br>
+            <input type="radio" name="radSize" id="bro">
+            <label for="bro">Maybe</label><br>
+            <input type="radio" name="radSize" id="bro">
+            <label for="bro">Not Sure</label><br>
+            <br>
+        </div>
+        
+        <div>
+            <label for="likes">What do you like most in FCC</label>
+            <select name="likes" id="likes">
+                <option value="Select an Option">Select an Option</option>
+            </select>
+        </div>
+        
+        <div>
+            <p>Things that should be improved in the future(Check all that apply)</p>
+            <input type="checkbox" id="bro">
+            <label for="bro">Front End Projects</label><br>
+            <input type="checkbox" id="bro">
+            <label for="bro">Back End Projets</label>
+            <br>
+            <input type="checkbox" id="bro">
+            <label for="bro">Data Visualization</label>
+        </div>
+        
+
+
+
+
+        
+
+        
+    </fieldset>
+    
+
+
+
+    
+</body>
+</html>
